@@ -1,13 +1,13 @@
 var environments = {
 
     staging: {
-        FIREBASE_API_KEY: "AIzaSyBdRpAZIcMqQudsXmJ3JkFd9JtH67Ougt0",
-        FIREBASE_AUTH_DOMAIN: "ocr-demo-e9ec5.firebaseapp.com",
+        FIREBASE_API_KEY: "your-firebase-api-key",
+        FIREBASE_AUTH_DOMAIN: "yor-firebase-auth-domain",
         FIREBASE_DATABASE_URL: "https://ocr-demo-e9ec5.firebaseio.com",
         FIREBASE_PROJECT_ID: "ocr-demo-e9ec5",
         FIREBASE_STORAGE_BUCKET: "ocr-demo-e9ec5.appspot.com",
-        FIREBASE_MESSAGING_SENDER_ID: "368663533081",
-        GOOGLE_CLOUD_VISION_API_KEY: "AIzaSyBky3Z-v9zPtB70AJjJVl2SDzIz6PFbDp8"
+        FIREBASE_MESSAGING_SENDER_ID: "your-firebase-messaging-sender-id",
+        GOOGLE_CLOUD_VISION_API_KEY: "your-google-cloud-vision-api-key"
     },
     production: {
         // Warning: This file still gets included in your native binary and is not a secure way to store secrets if you build for the app stores.
